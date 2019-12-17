@@ -98,35 +98,40 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Chercher un évènement" translatesAutoresizingMaskIntoConstraints="NO" id="gAK-e4-9YN">
-                                <rect key="frame" x="0.0" y="93" width="414" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <searchBar contentMode="redraw" placeholder="Chercher un évènement" translatesAutoresizingMaskIntoConstraints="NO" id="gAK-e4-9YN">
+                                <rect key="frame" x="0.0" y="88" width="414" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="Tts-ba-eI3"/>
+                                </constraints>
                                 <color key="barTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kn9-x7-k7X">
-                                <rect key="frame" x="364" y="162" width="30" height="30"/>
+                                <rect key="frame" x="379" y="154" width="20" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="JJp-YJ-Ta0"/>
-                                    <constraint firstAttribute="width" secondItem="Kn9-x7-k7X" secondAttribute="height" multiplier="1:1" id="zjt-XF-Tn2"/>
+                                    <constraint firstAttribute="width" constant="20" id="E0u-pz-aTR"/>
+                                    <constraint firstAttribute="height" constant="20" id="n3E-U0-Nb9"/>
                                 </constraints>
                                 <state key="normal" image="icon_filtre"/>
                                 <connections>
-                                    <segue destination="uBx-7b-ojZ" kind="show" id="2K7-Gg-8YX"/>
+                                    <segue destination="uBx-7b-ojZ" kind="show" id="bct-BZ-gS5"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Kn9-x7-k7X" firstAttribute="top" secondItem="gAK-e4-9YN" secondAttribute="bottom" constant="10" id="0ra-57-86Y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="Zbx-hZ-9xQ" secondAttribute="top" id="3PV-Xa-HY3"/>
-                            <constraint firstItem="Kn9-x7-k7X" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="3kM-qk-zdp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nfD-ja-mLb" secondAttribute="trailing" id="4Xt-wH-TGi"/>
                             <constraint firstItem="nfD-ja-mLb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GWa-6T-5Rt"/>
                             <constraint firstItem="nfD-ja-mLb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LVi-wT-nrK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kn9-x7-k7X" secondAttribute="trailing" constant="20" id="LkZ-w9-qFI"/>
                             <constraint firstItem="Zbx-hZ-9xQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OdT-Gn-80e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zbx-hZ-9xQ" secondAttribute="trailing" id="VKi-Pw-umE"/>
+                            <constraint firstItem="gAK-e4-9YN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Xaf-r4-REj"/>
+                            <constraint firstItem="gAK-e4-9YN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eBN-rt-rxj"/>
+                            <constraint firstItem="gAK-e4-9YN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="heh-4O-frF"/>
                             <constraint firstItem="nfD-ja-mLb" firstAttribute="top" secondItem="Zbx-hZ-9xQ" secondAttribute="bottom" id="pwh-0C-CZB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kn9-x7-k7X" secondAttribute="trailing" constant="15" id="tGV-89-PTy"/>
                             <constraint firstItem="Zbx-hZ-9xQ" firstAttribute="height" secondItem="nfD-ja-mLb" secondAttribute="height" multiplier="1.11111" id="uc0-Wb-lzu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -478,7 +483,7 @@
         <!--Événements-->
         <scene sceneID="DKg-kT-ZVX">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="smi-jJ-cLo" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="smi-jJ-cLo" customClass="NavigationUIViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Événements" image="icon_events_default" selectedImage="icon_events_click" id="j7l-He-hpI">
                         <inset key="imageInsets" minX="0.0" minY="45" maxX="0.0" maxY="45"/>
                         <color key="badgeColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -509,7 +514,7 @@
                         <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="sectionIndexTrackingBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
-                            <tableViewSection id="aTP-Cr-t9w">
+                            <tableViewSection headerTitle="Discussions" id="aTP-Cr-t9w" userLabel="Discussions">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="dMw-oe-frw" userLabel="Search">
                                         <rect key="frame" x="0.0" y="28" width="414" height="100"/>
@@ -519,7 +524,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <searchBar contentMode="redraw" placeholder="Recherche par nom de groupe..." translatesAutoresizingMaskIntoConstraints="NO" id="ncs-UG-IzO">
-                                                    <rect key="frame" x="10" y="2" width="394" height="56"/>
+                                                    <rect key="frame" x="10" y="10" width="394" height="56"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="394" id="E0y-mh-eze"/>
                                                         <constraint firstAttribute="height" constant="56" id="irx-4m-yl2"/>
@@ -532,8 +537,8 @@
                                             <constraints>
                                                 <constraint firstItem="ncs-UG-IzO" firstAttribute="leading" secondItem="hRD-9e-OvO" secondAttribute="leading" constant="10" id="Nhq-wy-pMO"/>
                                                 <constraint firstAttribute="bottom" secondItem="ncs-UG-IzO" secondAttribute="bottom" constant="2" id="PLf-fH-Dgr"/>
-                                                <constraint firstItem="ncs-UG-IzO" firstAttribute="top" secondItem="hRD-9e-OvO" secondAttribute="top" constant="2" id="X2C-Py-4gI"/>
                                                 <constraint firstAttribute="trailing" secondItem="ncs-UG-IzO" secondAttribute="trailing" constant="10" id="agP-gt-uyk"/>
+                                                <constraint firstItem="ncs-UG-IzO" firstAttribute="top" secondItem="hRD-9e-OvO" secondAttribute="top" constant="10" id="pV7-Yp-03S"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -888,7 +893,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Ou-ig-BuN" userLabel="Stack Tarif Participant">
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Ou-ig-BuN" userLabel="Stack Tarif Participant">
                                                     <rect key="frame" x="30" y="9" width="354" height="20"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="center" distribution="equalCentering" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rEH-tY-wml" userLabel="Stack Tarif">
@@ -931,6 +936,7 @@
                                                 </stackView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="3Ou-ig-BuN" firstAttribute="top" secondItem="14g-I3-BFb" secondAttribute="topMargin" constant="-2" id="iOb-rf-ZZK"/>
                                                 <constraint firstAttribute="trailing" secondItem="3Ou-ig-BuN" secondAttribute="trailing" constant="30" id="mu1-ON-TEq"/>
                                                 <constraint firstItem="3Ou-ig-BuN" firstAttribute="leading" secondItem="14g-I3-BFb" secondAttribute="leading" constant="30" id="txa-ea-6Sr"/>
                                             </constraints>
