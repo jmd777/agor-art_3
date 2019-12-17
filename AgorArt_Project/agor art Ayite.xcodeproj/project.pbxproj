@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA14617623A385CD00EB3028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14617523A385CD00EB3028 /* AppDelegate.swift */; };
+		EA14617823A385CD00EB3028 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14617723A385CD00EB3028 /* SceneDelegate.swift */; };
+		EA14617A23A385CD00EB3028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA14617923A385CD00EB3028 /* ViewController.swift */; };
+		EA14617D23A385CD00EB3028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA14617B23A385CD00EB3028 /* Main.storyboard */; };
+		EA14617F23A385CF00EB3028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA14617E23A385CF00EB3028 /* Assets.xcassets */; };
+		EA14618223A385CF00EB3028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA14618023A385CF00EB3028 /* LaunchScreen.storyboard */; };
+		EA29F3B023A6E045000FB8A0 /* EventLocalate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA29F3AF23A6E045000FB8A0 /* EventLocalate.swift */; };
+		EA6132E023A8412700B9F5D2 /* FiltresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6132DF23A8412700B9F5D2 /* FiltresViewController.swift */; };
+		EA6132E223A8413800B9F5D2 /* FiltresDom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6132E123A8413800B9F5D2 /* FiltresDom.storyboard */; };
+		EA98018123A434CC00D31B12 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98018023A434CC00D31B12 /* EventTableViewCell.swift */; };
+		EA98018523A4635F00D31B12 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA98018423A4635F00D31B12 /* EventViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA14617223A385CD00EB3028 /* agor art Ayite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "agor art Ayite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA14617523A385CD00EB3028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA14617723A385CD00EB3028 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA14617923A385CD00EB3028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA14617C23A385CD00EB3028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA14617E23A385CF00EB3028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA14618123A385CF00EB3028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA14618323A385CF00EB3028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA29F3AF23A6E045000FB8A0 /* EventLocalate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLocalate.swift; sourceTree = "<group>"; };
+		EA6132DF23A8412700B9F5D2 /* FiltresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltresViewController.swift; sourceTree = "<group>"; };
+		EA6132E123A8413800B9F5D2 /* FiltresDom.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FiltresDom.storyboard; sourceTree = "<group>"; };
+		EA98018023A434CC00D31B12 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		EA98018423A4635F00D31B12 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA14616F23A385CD00EB3028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA14616923A385CD00EB3028 = {
+			isa = PBXGroup;
+			children = (
+				EA14617423A385CD00EB3028 /* agor art Ayite */,
+				EA14617323A385CD00EB3028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA14617323A385CD00EB3028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA14617223A385CD00EB3028 /* agor art Ayite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA14617423A385CD00EB3028 /* agor art Ayite */ = {
+			isa = PBXGroup;
+			children = (
+				EA98018423A4635F00D31B12 /* EventViewController.swift */,
+				EA14617523A385CD00EB3028 /* AppDelegate.swift */,
+				EA14617723A385CD00EB3028 /* SceneDelegate.swift */,
+				EA6132DF23A8412700B9F5D2 /* FiltresViewController.swift */,
+				EA14617923A385CD00EB3028 /* ViewController.swift */,
+				EA14617B23A385CD00EB3028 /* Main.storyboard */,
+				EA6132E123A8413800B9F5D2 /* FiltresDom.storyboard */,
+				EA29F3AF23A6E045000FB8A0 /* EventLocalate.swift */,
+				EA98018023A434CC00D31B12 /* EventTableViewCell.swift */,
+				EA14617E23A385CF00EB3028 /* Assets.xcassets */,
+				EA14618023A385CF00EB3028 /* LaunchScreen.storyboard */,
+				EA14618323A385CF00EB3028 /* Info.plist */,
+			);
+			path = "agor art Ayite";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA14617123A385CD00EB3028 /* agor art Ayite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA14618623A385CF00EB3028 /* Build configuration list for PBXNativeTarget "agor art Ayite" */;
+			buildPhases = (
+				EA14616E23A385CD00EB3028 /* Sources */,
+				EA14616F23A385CD00EB3028 /* Frameworks */,
+				EA14617023A385CD00EB3028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "agor art Ayite";
+			productName = "agor art Ayite";
+			productReference = EA14617223A385CD00EB3028 /* agor art Ayite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA14616A23A385CD00EB3028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "ayite ";
+				TargetAttributes = {
+					EA14617123A385CD00EB3028 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EA14616D23A385CD00EB3028 /* Build configuration list for PBXProject "agor art Ayite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA14616923A385CD00EB3028;
+			productRefGroup = EA14617323A385CD00EB3028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA14617123A385CD00EB3028 /* agor art Ayite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA14617023A385CD00EB3028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA14618223A385CF00EB3028 /* LaunchScreen.storyboard in Resources */,
+				EA6132E223A8413800B9F5D2 /* FiltresDom.storyboard in Resources */,
+				EA14617F23A385CF00EB3028 /* Assets.xcassets in Resources */,
+				EA14617D23A385CD00EB3028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA14616E23A385CD00EB3028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6132E023A8412700B9F5D2 /* FiltresViewController.swift in Sources */,
+				EA98018523A4635F00D31B12 /* EventViewController.swift in Sources */,
+				EA29F3B023A6E045000FB8A0 /* EventLocalate.swift in Sources */,
+				EA98018123A434CC00D31B12 /* EventTableViewCell.swift in Sources */,
+				EA14617A23A385CD00EB3028 /* ViewController.swift in Sources */,
+				EA14617623A385CD00EB3028 /* AppDelegate.swift in Sources */,
+				EA14617823A385CD00EB3028 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA14617B23A385CD00EB3028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA14617C23A385CD00EB3028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA14618023A385CF00EB3028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA14618123A385CF00EB3028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA14618423A385CF00EB3028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA14618523A385CF00EB3028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA14618723A385CF00EB3028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "agor art Ayite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ayitefolly.agor-art-Ayite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA14618823A385CF00EB3028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "agor art Ayite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.ayitefolly.agor-art-Ayite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA14616D23A385CD00EB3028 /* Build configuration list for PBXProject "agor art Ayite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14618423A385CF00EB3028 /* Debug */,
+				EA14618523A385CF00EB3028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA14618623A385CF00EB3028 /* Build configuration list for PBXNativeTarget "agor art Ayite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA14618723A385CF00EB3028 /* Debug */,
+				EA14618823A385CF00EB3028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA14616A23A385CD00EB3028 /* Project object */;
+}
